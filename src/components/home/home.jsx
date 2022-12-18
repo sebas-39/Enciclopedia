@@ -6,7 +6,7 @@ function Home(props){
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="fw-light">WAINFO</h1>
-                <p class="lead text-muted">Una pagina web donde encontraras toda la informacion de tus personajes favoritos del anime/manga. Separados por categorias y franquicias. Bienvenid@!!!</p>
+                <p class="lead text-muted">Una pagina web donde encontraras toda la informacion de tus personajes favoritos del anime/manga y sus respectivas series. Separados por categorias y franquicias. Bienvenid@!!!</p>
                 </div>
             </div>
             </section>

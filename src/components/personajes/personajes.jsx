@@ -1,23 +1,25 @@
 import { Link } from "react-router-dom";
 
-function Category(props){
+function Personajes(){
     return(
         <div>
-            <h1>Series</h1>
-            <p>Con el tiempo se ira actualizando las series que hagan falta.</p>
+            <h1>Personajes</h1>
+            <p>Con el tiempo se ira actualizando los personajes que hagan falta.</p>
             <table class="table">
                 <thead class="table-secondary">
                     <tr>
                     <th scope="col">ID</th>
-                    <th scope="col">NOMBRE DE SERIE</th>
+                    <th scope="col">NOMBRE DE PERSONAJE</th>
+                    <th scope="col">SERIE</th>
                     <th scope="col">DISPONIBILIDAD</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                     <th scope="row">1</th>
+                    <td>YOSHIKO TSUSHIMA</td>
                     <td>LOVE LIVE</td>
-                    <td class="table-success"><Link to={"/disponibilidad/true"}>INFO AQUI</Link></td>
+                    <td class="table-success"><Link to={"/disponibilidad/trueP"}>INFO AQUI</Link></td>
                     </tr>
                 </tbody>
             </table>
@@ -25,4 +27,4 @@ function Category(props){
     );
 }
 
-export default Category;
+export default Personajes;
